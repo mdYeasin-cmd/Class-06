@@ -1,0 +1,118 @@
+/* Default CSS start */
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+.clear_fix{
+	clear: both;
+}
+/* Default CSS end */
+.heading_one{
+	color: red;
+	text-align: center;
+	font-family: sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/* Header Part */
+
+#header{
+	background-color: red;
+}
+.logo{
+	width: 25%;
+	float: left;
+	background-color: lightgreen;
+}
+.menu{
+	width: 75%;
+	float: left;
+	background-color: #17a00c;
+}
+.header_text{
+	font-family: sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Banner Part */
+
+#banner{
+	width: 100%;
+}
+img{
+	width: 100%;
+	height: 400px;
+}
+
+/* Main Content Part */
+
+#main_content{
+	background-color: yellow;
+}
+.main{
+	width: 75%;
+	float: left;
+}
+.paragraph{
+	padding: 10px;
+	margin-left: 10px;
+	font-family: sans-serif;
+	line-height: 1.5;
+	text-align: justify;
+}
+.side{
+	width: 25%;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+}
+.sidebar_link{
+	border: 2px solid black;
+	margin: 2px;
+	padding: 5px;
+}
+
+/* Footer Part */
+#footer {
+	background-color: purple;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.copyright_text{
+	margin-left: 10px;
+	padding: 10px;
+}
+
+/* Background Image Part */
+
+.natural_img_bg{
+	width: 50%;
+	height: 500px;
+	background-image: url('../images/banner.jpg');
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+}
+
+.bg_image{
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/bg_image.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.bg_imgae_2{
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/bg_image-2.jpg');
+	background-size: cover;
+}
